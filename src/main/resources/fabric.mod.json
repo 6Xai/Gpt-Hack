@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "gpt-hack",
+	"version": "1.0.0",
+	"name": "GptHack",
+	"description": "A simple mod to toggle a GUI using the Right Control key.",
+	"authors": ["Your Name"],
+	"contact": {
+		"sources": "https://github.com/your-repo/gpt-hack"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"gpthack.GptHack"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"fabric-api": "*",
+		"minecraft": "1.21.1"
+	}
+}
